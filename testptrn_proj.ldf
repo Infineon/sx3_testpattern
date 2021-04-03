@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="testptrn_proj" device="LFE5U-45F-8BG381I" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="Verilog"/>
+        <Option name="VerilogStandard" value="Verilog 2001"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options>
+            <Option name="HDL type" value="Verilog"/>
+            <Option name="HDL_KEYFILE" value=""/>
+            <Option name="HDL_PARAM" value=""/>
+            <Option name="VERILOG_DIRECTIVES" value=""/>
+            <Option name="VerilogStandard" value="Verilog 2001"/>
+            <Option name="lib" value="work"/>
+            <Option name="top" value=""/>
+            <Option name="include path" value="remote_files/include"/>
+        </Options>
+        <Source name="remote_files/sources/source/parameters.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/topmod.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/aud_tp_mod.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/buswdt_conv_mod.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/gpif_interface_mod.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/gpif_interface_top.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/i2c_slave.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/source/testpattern_mod.v" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="Verilog 2001">
+                <Option name="include path" value=""/>
+            </Options>
+        </Source>
+        <Source name="remote_files/sources/IP/aud_fifo/aud_fifo.sbx" type="sbx" type_short="SBX"/>
+        <Source name="remote_files/sources/IP/gpif_fifo/gpif_fifo.sbx" type="sbx" type_short="SBX"/>
+        <Source name="remote_files/sources/IP/pll/pll.sbx" type="sbx" type_short="SBX"/>
+        <Source name="testptrn_proj.lpf" type="Logic Preference" type_short="LPF"/>
+    </Implementation>
+    <Strategy name="Strategy1" file="testptrn_proj1.sty"/>
+</BaliProject>

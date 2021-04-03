@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell aud_fifo_ip.TECH
+Register bits:  41 of 44457 (0.092%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         3          100.0
+                              CCU2C        58          100.0
+                             DP16KD         4          100.0
+                            FD1P3DX        37          100.0
+                            FD1S3BX         2          100.0
+                            FD1S3DX         2          100.0
+                                GSR         1          100.0
+                                INV         7          100.0
+                           ROM16X1A         2          100.0
+                               XOR2         1          100.0
+                              TOTAL       117

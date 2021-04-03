@@ -1,0 +1,3 @@
+Results of NGD DRC are available in pll_clk_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file C:/Users/Kumar/Documents/testptrn_proj_aud_isoc_4/IP/pll/pll_clk/pll_clk.ngo.
